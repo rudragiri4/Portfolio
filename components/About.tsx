@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Terminal, Layers, Zap, Award } from "lucide-react";
 
 const highlights = [
@@ -40,15 +41,22 @@ export default function About() {
                     <h2 className="text-3xl md:text-4xl font-black tracking-tighter text-neutral-900">Get to know me</h2>
                     <div className="space-y-4 text-lg text-neutral-600 leading-relaxed font-medium">
                         <p>
-                            I'm a passionate Full-stack Developer with a strong foundation in modern web technologies. I specialize in building scalable, user-centric applications that solve real-world problems and provide seamless digital experiences.
+                            I&apos;m a passionate Full-stack Developer with a strong foundation in modern web technologies. I specialize in building scalable, user-centric applications that solve real-world problems and provide seamless digital experiences.
                         </p>
                         <p>
-                            With expertise in the MERN stack and a keen eye for design, I enjoy turning complex requirements into elegant, efficient code. I'm constantly learning and exploring new frameworks to stay at the forefront of the ever-evolving web development landscape.
+                            With expertise in the MERN stack and a keen eye for design, I enjoy turning complex requirements into elegant, efficient code. I&apos;m constantly learning and exploring new frameworks to stay at the forefront of the ever-evolving web development landscape.
                         </p>
                     </div>
                 </div>
                 <div className="w-full md:w-1/3 aspect-square rounded-2xl bg-gradient-to-br from-blue-50 to-purple-50 shadow-inner border border-white p-2 overflow-hidden flex items-center justify-center">
-                    <img src="/IMG-20251217-WA0048.jpg" alt="My Portrait" className="w-full h-full object-cover rounded-xl" />
+                    <Image 
+                        src="/IMG-20251217-WA0048.jpg" 
+                        alt="My Portrait" 
+                        className="w-full h-full object-cover rounded-xl" 
+                        width={500} 
+                        height={500}
+                        priority
+                    />
                 </div>
             </motion.div>
 

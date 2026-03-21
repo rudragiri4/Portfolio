@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import { 
-    Terminal, Code, Database, Globe, Layers, Cpu, Layout, 
-    Server, Wrench, GitBranch, Share2, Square
+    Code, Database, Globe, Cpu, Layout, 
+    Server, Wrench, Square
 } from "lucide-react";
 import TiltCard from "./TiltCard";
 

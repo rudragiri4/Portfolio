@@ -40,7 +40,7 @@ const projects = [
 ];
 
 export default function Projects() {
-    const handleProjectClick = (e: React.MouseEvent, project: any) => {
+    const handleProjectClick = (e: React.MouseEvent, project: { status: string }) => {
         if (project.status === "maintenance") {
             e.preventDefault();
             alert("This project is currently under maintenance. Please check back later!");
