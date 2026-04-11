@@ -139,13 +139,6 @@ export default function Skills() {
                 </div>
             </div>
 
-            <style jsx>{`
-                .grid-background {
-                    background-image: linear-gradient(to right, #1a1a1a 1px, transparent 1px),
-                                    linear-gradient(to bottom, #1a1a1a 1px, transparent 1px);
-                    background-size: 40px 40px;
-                }
-            `}</style>
         </section>
     );
 }

@@ -47,6 +47,15 @@
   .animate-float {
     animation: float 6s ease-in-out infinite;
   }
+  .animate-blob {
+  animation: blob 8s infinite ease-in-out;
+}
+
+@keyframes blob {
+  0%, 100% { transform: scale(1) translate(0, 0); }
+  33% { transform: scale(1.1) translate(20px, -30px); }
+  66% { transform: scale(0.9) translate(-20px, 20px); }
+}
   @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
