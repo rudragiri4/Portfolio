@@ -12,13 +12,18 @@ export const metadata: Metadata = {
   description: "A stunning minimalist developer portfolio with Next.js and Framer Motion",
 };
 
+export const viewport = {
+  themeColor: '#FAFAFA',
+  width: 1024,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth overflow-x-hidden">
       <body className={`${inter.className} relative min-h-screen bg-[#FAFAFA] text-neutral-900 font-sans overflow-x-hidden`}>
         <CursorFollower />
         {/* Beautiful Light Background Elements */}

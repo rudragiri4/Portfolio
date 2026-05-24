@@ -14,28 +14,12 @@ const projects = [
         status: "live"
     },
     {
-        title: "E-commerce Platform",
-        desc: "A modern, full-stack e-commerce solution with real-time inventory, secure payments, and an intuitive admin dashboard. Built with a focus on performance and user experience.",
-        tags: ["Next.js", "Tailwind CSS", "Stripe", "PostgreSQL"],
+        title: "HomeLynkk – Airbnb Clone",
+        desc: "A full-featured Airbnb-inspired property rental platform with property listings, search & filtering, booking management, and a seamless user experience for hosts and guests.",
+        tags: ["ReactJS", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
         github: "#",
-        live: "#",
-        status: "maintenance"
-    },
-    {
-        title: "Task Management App",
-        desc: "A collaborative task management tool featuring drag-and-drop mechanics, real-time updates, and team workspace support. Includes notifications and priority tracking.",
-        tags: ["React", "Firebase", "Framer Motion", "Tailwind CSS"],
-        github: "#",
-        live: "#",
-        status: "maintenance"
-    },
-    {
-        title: "AI Content Generator",
-        desc: "An AI-powered application that generates high-quality marketing copy, blog posts, and social media content with a single click using OpenAI APIs.",
-        tags: ["Next.js", "OpenAI", "Node.js", "MongoDB"],
-        github: "#",
-        live: "#",
-        status: "maintenance"
+        live: "https://homelynkk.netlify.app/",
+        status: "live"
     },
 ];
 

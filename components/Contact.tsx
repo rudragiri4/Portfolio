@@ -1,11 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, ArrowRight } from "lucide-react";
+import { Mail, Github, ArrowRight } from "lucide-react";
 
 const socials = [
     { icon: Github, label: "GitHub", href: "https://github.com/" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/" },
     { icon: Mail, label: "Email", href: "mailto:goswamirudra006@gmail.com" },
 ];
 
@@ -54,7 +53,7 @@ export default function Contact() {
                 </div>
 
                 {/* Social Links */}
-                <div className="flex items-center justify-center gap-4">
+                <div className="flex flex-wrap items-center justify-center gap-4">
                     {socials.map(({ icon: Icon, label, href }) => (
                         <motion.a
                             key={label}

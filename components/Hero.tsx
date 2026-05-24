@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, Variants } from "framer-motion";
-import { ArrowRight, Github, Linkedin, Twitter } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Magnetic from "./Magnetic";
 
 export default function Hero() {
@@ -34,7 +34,7 @@ export default function Hero() {
 
                 <motion.h1
                     variants={itemVariants}
-                    className="text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter text-neutral-900 leading-[0.9] text-gradient"
+                    className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter text-neutral-900 leading-[0.9] text-gradient"
                 >
                     I&apos;m <span className="text-blue-600">Rudra</span>.<br className="hidden md:block" />{" "}
                     Building experiences.
@@ -53,11 +53,7 @@ export default function Hero() {
                             View My Work <ArrowRight className="w-4 h-4" />
                         </a>
                     </Magnetic>
-                    <div className="flex items-center gap-6 px-8 py-4 bg-white/40 border border-neutral-200 rounded-full backdrop-blur-sm">
-                        <Magnetic strength={0.5}><a href="https://github.com" className="text-neutral-500 hover:text-neutral-950 transition-colors block p-2"><Github className="w-5 h-5" /></a></Magnetic>
-                        <Magnetic strength={0.5}><a href="https://linkedin.com" className="text-neutral-500 hover:text-blue-600 transition-colors block p-2"><Linkedin className="w-5 h-5" /></a></Magnetic>
-                        <Magnetic strength={0.5}><a href="https://twitter.com" className="text-neutral-500 hover:text-sky-500 transition-colors block p-2"><Twitter className="w-5 h-5" /></a></Magnetic>
-                    </div>
+
                 </motion.div>
             </motion.div>
         </section>
